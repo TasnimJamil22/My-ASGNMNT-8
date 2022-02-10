@@ -1,0 +1,23 @@
+[
+    {"key":1, "name":"Harry Potter","Personality":"bravery, determination, and self-sacrifice.","Powers":"to speak and understand Parseltongue","birth":"July 31, 1980","salary":200000,"img":"https://images5.fanpop.com/image/photos/25500000/Harry-Potter-Wallpaper-harry-james-potter-25502443-1024-768.jpg"},
+
+    {"key":2,"name":"Hermione Granger","Personality":"prodigious intellect and cleverness.","Powers":" Magic in Harry Potter","birth":"September 19, 1979","salary":100000,"img":"https://sites.google.com/site/harrypotterultimatefans/_/rsrc/1279832291238/hermione-granger/hermione.jpg"},
+
+    {"key":3,"name":"Ron Weasley","Personality":"a bit lazy and (at times) hot-headed, but also funny and intensely loyal","Powers":" Magic in Harry Potter","birth":"1 March, 1980","salary":100000,"img":"https://upload.wikimedia.org/wikipedia/en/5/5e/Ron_Weasley_poster.jpg"},
+
+    {"key":4,"name":"Rubeus Hagrid","Personality":"incredibly warm, kind-hearted man","Powers":" Superhuman strength","birth":"December 6, 1928","salary":130000,"img":"https://miro.medium.com/max/3840/1*b9gy-9cxS3IEBaU0LjrP2w.jpeg"},
+
+    {"key":5,"name":"Draco Malfoy","Personality":"cruel and power-hungry, but ultimately cowardly.","Powers":"Occlumency","birth":"5 June 1980","salary":120000,"img":"https://i.pinimg.com/originals/8f/12/85/8f1285dde977af5f4a711adb21761481.jpg"},
+
+    {"key":6,"name":"Professor Minerva McGonagall","Personality":"fictional","Powers":"Magic in Harry Potter","birth":"4 October","salary":
+    200000,"img":"https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/McGonagall_%28screenshot%29.jpg/220px-McGonagall_%28screenshot%29.jpg"},
+    {"key":7,"name":"Professor Albus Dumbledore","Personality":"wise, calm, and powerful.","Powers":" Legilimency","birth":"1881","salary":50000,"img":"https://www.pinkvilla.com/files/styles/ld-image/public/Albus-Dumbledore-Bollywood-Actor-Audition.jpg"},
+
+    {"key":8,"name":"Professor Severus Snape","Personality":"cold, calculating, precise, sarcastic, and bitter.","Powers":" Flight","birth":"January 9, 1960","salary":800000,"img":"https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Ootp076.jpg/220px-Ootp076.jpg"},
+
+    {"key":9,"name":"Fred Weasley","Personality":"outgoing and goofy, but protective","Powers":"magic","birth":"1 April, 1978;","salary":200000,"img":"https://i.pinimg.com/236x/09/a5/89/09a589430503707257d02bc48e8aa397.jpg"} 
+     
+
+]
+    
+    

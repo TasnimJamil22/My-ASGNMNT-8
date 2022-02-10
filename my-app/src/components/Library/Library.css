@@ -1,0 +1,16 @@
+.library{
+    display: grid;
+    grid-template-columns:  2fr 3fr;
+    /* background-color: rgb(243, 181, 211); */
+    /* background-image: url(images/landscape-1435254275-bookshelf.jpg); */
+    
+     
+    
+}
+.library-container{
+     display: grid;
+     grid-template-columns:  3fr 3fr 3fr;
+    /* background-color: darkblue; */
+      padding-bottom: 25px;
+      
+}
