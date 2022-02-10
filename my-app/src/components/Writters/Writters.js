@@ -2,7 +2,7 @@ import React from 'react';
 import './Writters.css'
 
 const Writters = (props) => {
-    console.log(props);
+     
     const {name,Personality,Powers,birth,salary,img} = props.writter;
     return (
         <div className="writter-container">
@@ -25,7 +25,7 @@ const Writters = (props) => {
              <h6>Salary:{salary}</h6> 
        
             <button 
-            onClick={() => props.handleAddToCart(props.writters)}
+            onClick={() => props.handleAddToCart(props.writter)}
             className="button"> <i className="fas fa-cart-plus"></i> Add</button>
       </div>
     </div>

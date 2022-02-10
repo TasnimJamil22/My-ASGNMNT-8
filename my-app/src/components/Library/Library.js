@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import Cart from '../Cart/Cart';
 import Writters from '../Writters/Writters';
 import './Library.css'
 
 const Library = () => {
     const [writters,setWritters] = useState([]);
+    const [cart,setCart] = useState([]);
 
     useEffect( ()=>{
         fetch('./writters.JSON')
@@ -11,14 +13,17 @@ const Library = () => {
         .then(data=>setWritters(data));
       },[])
 
-      const handleAddToCart = (Writters) => {
-          console.log(writters.name);
+      const handleAddToCart = (writter) => {
+        //   console.log(writter);
+        const newCart= [...cart, writters];
+        setCart(newCart);
       }
     return (
         <div className='library'>
             <div className='library-container'>
                  
                 {
+
                     writters.map(writter => <Writters
                     key={writter.key}
                     writter={writter}
@@ -29,7 +34,9 @@ const Library = () => {
                     )
                 }
             </div>
-            <div><p>true YES very true!!</p></div>
+            <div className='cart-container'>
+                <Cart cart={cart}> </Cart>
+            </div>
         </div>
     );
 };
