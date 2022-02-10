@@ -11,6 +11,11 @@
      display: grid;
      grid-template-columns:  3fr 3fr 3fr;
     /* background-color: darkblue; */
+      background-image: url(images/cover8.jpg);
+      /* background-repeat: no-repeat; */
+      background-attachment: fixed;
       padding-bottom: 25px;
       border-right: 1px solid lightgray;
-}
+} 
+
+ 

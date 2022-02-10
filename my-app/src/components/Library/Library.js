@@ -15,7 +15,7 @@ const Library = () => {
 
       const handleAddToCart = (writter) => {
         //   console.log(writter);
-        const newCart= [...cart, writters];
+        const newCart= [...cart, writter];
         setCart(newCart);
       }
     return (

@@ -9,7 +9,7 @@ const Cart = (props) => {
         total = total + writter.salary;
     }
     return (
-        <div>
+        <div className='cart'>
             <p>Character selected:{props.cart.length}</p>
             <p>Total={total}</p>
         </div>
