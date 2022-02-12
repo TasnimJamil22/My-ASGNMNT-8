@@ -35,7 +35,9 @@ const Library = () => {
                 }
             </div>
             <div className='cart-container'>
-                <Cart cart={cart}> </Cart>
+                <Cart 
+                cart={cart}
+                > </Cart>
             </div>
         </div>
     );

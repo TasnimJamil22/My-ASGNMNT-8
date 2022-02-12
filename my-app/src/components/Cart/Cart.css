@@ -4,3 +4,20 @@
      height: auto;
      width: auto;
 } */
+
+.cart-background{
+    background-color: rgb(245, 229, 229);
+    height:1800px;
+    padding-top:40px;
+     
+}
+.name-selected{
+    background-color: rgb(207, 129, 129);
+    color:white;
+    border-radius: 10px;
+    height:80px;
+    width:300px;
+    padding:20px;
+    margin:5px;
+    font-size: 20px;
+}
